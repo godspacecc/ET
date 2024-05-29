@@ -19,6 +19,7 @@
       <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
       <Optimize>true</Optimize>
+      <NoWarn>1701;1702;NU1903</NoWarn>
     </PropertyGroup>
     
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
